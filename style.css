@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+
+.heading{
+
+    background-color: #f1c40f;
+    width: 100vw;
+    height: 4rem;
+    box-shadow: 0px 10px 16px rgb(248,247,247);
+    letter-spacing: .5rem;
+    padding: 1rem;
+    font-size: .7rem;
+
+
+}
+
+.button{
+    /* border: 2px solid black; */
+    position: fixed;
+    right: 1rem;
+    top: 5rem;
+    padding: .5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #f1c40f;
+
+    
+}
+
+button{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+    
+}
+
+button.learn-more{
+    width: 12rem;
+    height: auto;
+    /* border: 1px solid green; */
+
+
+}
+
+
+ button.learn-more .circle{
+    /* border: 1px solid red; */
+    transition: all .45s cubic-bezier(.65, 0, .076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    background: white;
+    /* background: #f1c12e; */
+    border-radius: 1.625rem;
+
+}
+
+button.learn-more .circle .icon{
+    transition: all .45s cubic-bezier(.65, 0, .076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+
+button.learn-more .button-text {
+    transition: all .45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* border: 1px solid saddlebrown; */
+    
+}
+
+
+
+.note{
+    /* border: 2px solid black; */
+
+    width: 300px;
+    height: 200px;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: relative;
+    overflow-y: scroll;
+    box-shadow: 10px 0px 70px rgb(170, 144, 144);
+    
+
+}
+
+.note .operation{
+    /* display: flex; */
+    position: absolute;
+    right: .4rem;
+}
+
+.edit{
+    margin-top: .3rem;
+    height: 30px;
+    width: 30px;
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.edit:hover{
+    
+    background-color: white;
+    color: green;
+}
+
+.delete{
+    margin-top: .3rem;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+.delete:hover{
+    background-color: white;
+    color: red;
+}
+
+
+.note textarea{
+    width: fit-content;
+    position: absolute;
+    top: 2rem;
+    width: 100%;
+    height: 80%;
+    scroll-behavior: hidden;
+    justify-self: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    resize: none;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background:transparent;
+    padding-left: .4rem;
+
+}
+
+
+
+.hidden{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:558px) {
+
+    .heading{
+    
+        font-size: .5rem;
+        letter-spacing: .3rem;
+    
+    
+    }
+    
+
+    .button{
+        left: 1rem;
+        width: 50%;
+        
+    }
+
+    .note{
+        top: 3rem;
+        left: 1.5rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
