@@ -196,14 +196,17 @@ button.learn-more .button-text {
     
 
     .button{
+        top: 2rem;
         left: 1rem;
         width: 50%;
+        position: relative;
         
     }
 
     .note{
         top: 3rem;
         left: 1.5rem;
+
     }
 
 }
