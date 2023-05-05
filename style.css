@@ -207,9 +207,15 @@ button.learn-more .button-text {
         top: 3rem;
         left: .8rem;
         margin-top: 1.4rem;
+    
+
+
 
     }
 
+    .note:last-child{
+        margin-bottom: 7rem;
+    }
 }
 
 
